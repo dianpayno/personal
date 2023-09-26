@@ -1,0 +1,501 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+}
+
+
+header{
+    position: fixed;
+    right: 0;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 23px 5%;
+    background:#f2f2f2;
+    border-bottom : none;
+    box-shadow: 0px 0px 1px 1px #4d9559;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    
+}
+
+.menu-list{
+    margin-left: 400px;
+    
+}
+
+.hamburger-icon{
+    margin-top: 9px;
+    width: 23px;
+    display:none;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+    color:#4d9559;
+}
+
+.menu-list, .navlist{
+    display: flex;
+    justify-items: flex-end;
+}  
+
+.navlist a{
+    color:#4d9559;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition:all 0.5s ease;
+}
+
+.navlist a:hover{
+   
+    border-bottom: 2px solid #4d9559;
+    
+   
+}
+
+.hero-container{
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-top:100px;
+    background-color: #484343;
+    width:100%;
+    height:680px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+    
+    
+    
+}
+
+.hero-img img{
+    margin-top: 40px;
+    width: 500px;
+}
+
+.hero-text-1{
+    display: flex;
+    column-gap: 10px;
+    font-weight: 700;
+    font-size: 21px;
+    color: #4d9559;
+    margin-top: -7px;
+    
+}
+
+.hero-text h1{
+font-family: 'Lalezar', cursive;
+font-size: 60px;
+letter-spacing: 5px;
+color: #38703d;
+
+}
+
+.hero-text p{
+    color: #4d9559;
+    font-weight: 300;
+    margin-top:-9px;
+    font-size: 12px;
+    
+}
+.download{
+    padding-top: 7px;
+    font-size: 11px;
+    font-weight: bold;
+    color:#38703d;
+}
+
+.tombol{
+    display:flex;
+    column-gap: 15px;
+    align-items: center;
+    padding-top: 4px;
+    font-size: 10px;
+    color:black;
+    font-weight: 400;
+    margin-bottom: 45px;
+    
+    
+}
+
+.install, .watch{
+ display: flex;
+ background-color: #4d9559;
+ padding: 3px 13px;
+ border-radius: 7px;
+ border: none;
+ box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+ align-items: center;
+ column-gap: 5px;
+ transition:all 0.5s ease;
+
+}
+
+
+.watch:hover,.install:hover {
+ outline:#38703d ;
+ background-color:white;
+ transform: translateX(6px);
+ color:black;
+ cursor: pointer;
+
+
+}
+
+.tombol img{
+    width: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    column-gap: 9px;
+    align-items: center;
+    padding-top: 8px;
+    transition:all 0.5s ease;
+    
+}
+.socialmedia img{
+    width: 25px;
+}
+.socialmedia img:hover{
+    outline: 1px solid #4d9559 ;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+    transform: translateY(4px);
+   
+}
+
+
+
+.about
+{
+    height: auto;
+    width: 100%;
+    background:#f2f2f2;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    column-gap: 10px;
+    margin-top: -10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.about-satu{
+    padding: 33px;
+}
+
+.about-dua{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+   
+}
+
+.baris-desc{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(244, 240, 240);
+    padding: 30px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+}
+
+.baris{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(244, 240, 240);
+    padding: 25px;
+    box-shadow: 0px 0px 0px px rgba(0,0,0,0.3);
+  
+}
+.baris-desc:hover > .baris-satu
+{
+    color: white;
+    background-color:transparent;
+    
+}
+
+.baris-desc:hover > .baris-dua
+{
+    color: white;
+    background-color:transparent;
+    
+}
+.baris-desc:hover
+{
+    color: white;
+    background-color: #4d9559;
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
+    outline: #4d9559 ;
+    
+}
+.baris-dua{
+    font-size: 12px;
+    color: #484343;
+}
+
+.baris-satu{
+    font-size:17px;
+    font-weight: 600;
+    color:#4d9559;
+}
+.baris:hover > .baris-satu
+{
+    color: white;
+    background-color:transparent;
+    
+}
+
+.baris:hover > .baris-dua
+{
+    color: white;
+    background-color:transparent;
+    
+}
+.baris:hover
+{
+    color: white;
+    background-color: #4d9559;
+    transition: .5s;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
+    outline: #4d9559 ;
+    
+}
+
+.footer{
+    
+    position:absolute;
+    bottom:1;
+    width: 100%;
+    height: 50px;
+    background-color: #484343;
+    text-align: center;
+    padding: 13px;
+    font-size: 9px;
+    color: white;
+    border-top: 1px solid;
+
+}
+
+@media screen and (max-width: 1500px){
+
+    .menu-list{
+        justify-items: flex-end;
+        
+    }
+
+
+    .about{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    .about-dua{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:1200px){
+
+    .navlist{
+        position:absolute;
+        right: 10px;
+        bottom: 25px;
+      
+    }
+
+    .about{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        margin:auto;
+        height: auto;
+}
+    .hero-container{
+        flex-direction:row;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right:auto;
+        
+    }
+    .hero-img img{
+        width:400px;
+        margin: auto;
+        padding: auto;
+    }
+    .about-dua{
+        margin:auto;
+        grid-template-columns: 1fr 1fr;
+    }
+    .baris-desc {
+        height:auto;
+        width: 100%;
+        padding:20px;
+        font-size: 9px;
+    }
+
+    .baris{
+        width: 100%;
+    }
+
+    
+    }
+
+@media screen and (max-width: 992px){
+
+
+    .about{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        margin:auto;
+}
+    .hero-container{
+        flex-direction:row;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right:auto;
+        
+    }
+    .hero-img img{
+        width:250px;
+        margin: auto;
+        padding: auto;
+    }
+    .about-dua{
+        margin:auto;
+        grid-template-columns: 1fr 1fr;
+    }
+    .baris-desc {
+        height:auto;
+        width: 100%;
+        padding:20px;
+        font-size: 9px;
+    }
+
+    .baris{
+        width: 100%;
+    }
+
+    
+    }
+
+@media screen and (max-width: 800px){
+        .navlist a{
+            margin-left:20px;
+        }
+    }
+
+@media screen and (max-width: 650px){
+    .hamburger-icon{
+        display:flex;
+        position:absolute;
+         right: 33px;
+         bottom: 26px;
+    }
+    
+    .navlist{
+       display:block;
+       position: absolute;
+       right: -100px;
+       top:50px;
+       padding: auto;
+       transition:all .55s ease;
+
+    }
+
+    .navlist.open{
+        right:0;
+
+    }
+    
+    
+  
+        
+    
+
+    .about{
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        margin:auto;
+}
+    .hero-container {
+        flex-direction: column;
+        background:#f2f2f2;
+        margin-top: 20px;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right:auto;
+        
+    }
+    .hero-img img{
+        width:250px;
+        margin: auto;
+        padding: auto;
+    }
+    .about-dua{
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
+    .baris-desc {
+        height:auto;
+        width: 100%;
+        padding:20px;
+        font-size: 9px;
+    }
+
+    .baris-desc h1 {
+        font-size: 13px;
+    }
+    .baris-satu{
+        width:auto;
+        height: auto;
+    }
+
+    header{
+        border-bottom: none;
+        box-shadow: none;
+    }
+    
+   
+}
+
+@media screen and (max-width: 450px){
+   .hero-text-1 {
+    font-size:2vh;
+   }
+   .logo {
+    font-size: 3vh;
+   }
+}
+
+
+
+  
